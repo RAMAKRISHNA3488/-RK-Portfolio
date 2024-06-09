@@ -349,6 +349,24 @@ a:hover {
       /* padding: 5px 0; */
   }
 }
+@media (max-width: 375px) {
+  .introduction {
+      padding: 5px;
+  }
+
+  .introduction-1 h1 {
+      font-size: 18px;
+  }
+
+  .introduction-1 h2 {
+      font-size: 14px;
+  }
+
+  .introduction p{
+    font-size: 12px;
+    margin: 0;
+  }
+}
 
 .introduction {
   padding: 20px;

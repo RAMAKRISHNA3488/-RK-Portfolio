@@ -335,6 +335,10 @@ a:hover {
   .introduction-1 h2 {
       font-size: 16px;
   }
+   .introduction p{
+    font-size: 14px;
+    margin: 0;
+  }
 
   .details-row {
       /* flex-direction: column;

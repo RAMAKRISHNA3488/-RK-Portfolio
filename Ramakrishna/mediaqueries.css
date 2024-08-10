@@ -101,3 +101,40 @@
     text-align: justify;
   }
 }
+
+/* blogs */
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .main-blog {
+    padding: 40px;
+  }
+
+  .blogs {
+    justify-content: space-around;
+  }
+
+  .blog {
+    width: 48%; /* Two blogs side by side */
+  }
+
+  .blog img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .blog .content {
+    padding: 15px;
+  }
+
+  .blog h1 {
+    font-size: 1.8rem;
+  }
+
+  .blog h2 {
+    font-size: 1.5rem;
+  }
+
+  .blog p {
+    font-size: 1.1rem;
+  }
+}

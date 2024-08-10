@@ -50,12 +50,18 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: 80vh;
   }
   #profile {
     height: 83vh;
     margin-bottom: 0;
   }
+
+  #contact-me {
+    margin-left: 0px;
+
+  }
+
   article {
     font-size: 1rem;
   }

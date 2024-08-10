@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodies Project Live Demo</title>
+    <link rel="stylesheet" href="liveDemo.css" />
+    <link rel="stylesheet" href="mecartMediaqueries.css" />
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Ramakrishna</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">Introduction</a></li>
+        <li><a href="#experience">Home Pages</a></li>
+        <li><a href="#projects">Admin Pages</a></li>
+        <li><a href="#contact">Customer Pages</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Ramakrishna</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">Introduction</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Home Pages</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Admin Pages</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Customer Pages</a></li>
+      </div>
+    </div>
+  </nav>
+      <div id="about" class="introduction">
+        <div class="introduction-1">
+          <h1 > Introduction </h1>
+          <h2>Project Details: </h2>
+        </div>
+      
+        <div class="details">
+          <div class="details-row">
+            <p class="label">Project Name</p>
+            <p class="colon">:</p>
+            <p class="value">Foodies </p>
+          </div>
+          <div class="details-row">
+            <p class="label">Duration</p>
+            <p class="colon">:</p>
+            <p class="value">Aug 2023 – May 2024  </p>
+          </div>
+          <div class="details-row">
+            <p class="label">Role</p>
+            <p class="colon">:</p>
+            <p class="value">Full Stack Developer </p>
+          </div>
+          <div class="details-row">
+            <p class="label">Technologies</p>
+            <p class="colon">:</p>
+            <p class="value">Java, Spring Boot, Spring MVC, Spring Data JPA,  
+              Spring Security, Junit Testing, MYSQL, ReactJs, and Bootstrap. </p>
+          </div>
+          <div class="details-row">
+            <p class="label">Ide's</p>
+            <p class="colon">:</p>
+            <p class="value"> IntelliJ, Postman and Visual Studio Code.</p>
+          </div>
+        </div>
+      </div>
+      <section id="experience" class="home-page-section">
+        <div class="home-page">
+          <h1>Home Pages</h1>
+        </div>
+      <div class="container">
+        <img src="./Foodies/Homepage-1.png" alt="Home Page" >
+        <div class="info">
+          <h1>Home Page</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <img src="./Foodies/Homepage-2.png" alt="Home Page" >
+        <div class="info">
+          <h1>Login page</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="./Foodies/Register.png" alt="Register Page" >
+        <div class="info">
+          <h1>Register page</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <img src="./Foodies/Login.png" alt="Login Page" >
+        <div class="info">
+          <h1>Register page</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <img src="./Foodies/Forgot.png" alt="Forgot Password Page" >
+        <div class="info">
+          <h1>Register page</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="home-page-section">
+      <div class="home-page">
+        <h1>Admin Pages</h1>
+      </div>
+    <div class="container">
+      <img src="./Foodies/Admin-Dashboard.png" alt="Dashboard Page" >
+      <div class="info">
+        <h1>Dashboard Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <img src="./Foodies/Admin-details.png" alt="Details Page" >
+      <div class="info">
+        <h1>Details page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+      </div>
+    </div>
+    <div class="container">
+      <img src="./Foodies/Admin-events.png" alt="Events Page" >
+      <div class="info">
+        <h1>Events page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <img src="./Foodies/Admin-Food Category.png" alt="Food Category Page" >
+      <div class="info">
+        <h1>Food Category page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <img src="./Foodies/Admin-Ingredients.png" alt="Ingredients Page" >
+      <div class="info">
+        <h1>Ingredients page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+      </div>
+    </div>
+    <div class="container">
+      <img src="./Foodies/Admin-menu.png" alt="Menu Page" >
+      <div class="info">
+        <h1>Menu page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <img src="./Foodies/Admin-orders.png" alt="Orders Page" >
+      <div class="info">
+        <h1>Orders Status page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="home-page-section">
+    <div class="home-page">
+      <h1>Customer page</h1>
+    </div>
+  <div class="container">
+    <img src="./Foodies/Customer-details.png" alt="Details Page" >
+    <div class="info">
+      <h1>Details Page</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="./Foodies/Customer-address.png" alt="Address Page" >
+    <div class="info">
+      <h1>Address page</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="./Foodies/Customer-cart.png" alt="Cart Page" >
+    <div class="info">
+      <h1>Cart page</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="./Foodies/Customer-events.png" alt="Events Page" >
+    <div class="info">
+      <h1>Events page</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="./Foodies/Customer-Favorites.png" alt="Favorites Page" >
+    <div class="info">
+      <h1>Favorites page</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="./Foodies/Customer-notifications.png" alt="Notifications Page" >
+    <div class="info">
+      <h1>Notification page</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="./Foodies/Customer-orders.png" alt="Orders Page" >
+    <div class="info">
+      <h1>Orders page</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="./Foodies/Customer-Search.png" alt="Search Page" >
+    <div class="info">
+      <h1>Search page</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum atque vitae doloremque, aspernatur odio! Aliquid neque distinctio harum dolores consectetur voluptatem facilis quas alias saepe porro nam sit sint eum qui expedita, culpa esse nostrum tempore! Fuga sunt magnam quidem totam dolore aspernatur. Iste soluta dolorem ea explicabo natus.</p>
+    </div>
+  </div>
+</section>
+      <script src="script.js"></script>
+</body>
+</html>
